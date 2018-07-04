@@ -88,6 +88,19 @@ db_MyContacts_db_schema.Contact = new mongoose.Schema({
 });
 
 
+ /**
+  * asdasda
+  */
+db_MyContacts_db_schema.asdasda = new mongoose.Schema({
+	//RELATIONS
+	
+	
+	//EXTERNAL RELATIONS
+	/*
+	*/
+});
+
+
 
 // Import schema customization
 require('./MyContacts_db_customSchema.js');
@@ -97,6 +110,7 @@ var MyContacts_db_model = require('./MyContacts_db_crud.js');
 
 db_MyContacts_db.Company = MyContacts_db_model.connection.model('Company', db_MyContacts_db_schema.Company );
 db_MyContacts_db.Contact = MyContacts_db_model.connection.model('Contact', db_MyContacts_db_schema.Contact );
+db_MyContacts_db.asdasda = MyContacts_db_model.connection.model('asdasda', db_MyContacts_db_schema.asdasda );
 
 module.exports = db_MyContacts_db;
 

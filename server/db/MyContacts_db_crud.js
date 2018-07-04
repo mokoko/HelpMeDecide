@@ -31,6 +31,7 @@ connectDB = function()  {
 
 			require('../resource/MyContacts_db/Company.js');
 			require('../resource/MyContacts_db/Contact.js');
+			require('../resource/MyContacts_db/asdasda.js');
 			
 			//END IMPORT RESOURCE
 		}

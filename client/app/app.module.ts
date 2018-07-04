@@ -35,6 +35,7 @@ import { ContactEditComponent } from './pages/contact-edit/contact-edit.componen
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
 import { CompanyService } from './services/company.service';
 import { ContactService } from './services/contact.service';
+import { AsdasdaService } from './services/asdasda.service';
 
 /* END MY SERVICES IMPORTS*/
 
@@ -98,6 +99,7 @@ import { MailValidator } from './directives/mail-validate.directive';
 // Do not edit this comment content, it will be overwritten in next Skaffolder generation
     CompanyService,
     ContactService,
+    AsdasdaService,
  /* END PROVIDERS */
     
     // SECURITY
